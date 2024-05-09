@@ -1,0 +1,70 @@
+<!-- perfil_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout1_reserva"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="24px"
+    android:layout_marginLeft="24px"
+    android:layout_marginTop="8px"
+    android:layout_marginEnd="24px"
+    android:layout_marginRight="24px"
+    android:layout_marginBottom="8px"
+    android:background="@color/material_dynamic_neutral90"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- ImageView para la foto del perfil -->
+
+    <!-- LinearLayout para contener el texto -->
+
+    <LinearLayout
+        android:id="@+id/layout2_reserva"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8px"
+        android:layout_weight="2"
+        android:gravity="start"
+        android:orientation="vertical">
+
+        <!-- TextView para el nombre -->
+        <TextView
+            android:id="@+id/label1_reserva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Nombre"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/label2_reserva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Fecha"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/label3_reserva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Hora"
+            android:textSize="18sp" />
+
+        <!-- Otros TextViews para mostrar la información del perfil -->
+        <!-- Puedes agregar más TextViews según sea necesario -->
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/boton1_reserva"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:background="#FA5353"
+        android:text="Cancelar reserva" />
+</LinearLayout>
